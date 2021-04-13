@@ -99,7 +99,7 @@ class ProfileShow extends Component {
             <Card.Body style={{ backgroundColor: '#93A0B0' }}>
               <Card.Title><h3>Nickname: {profile.nickname}</h3></Card.Title>
               <Card.Text >
-                Your profile overview.
+                Profile overview.
               </Card.Text>
               { user._id === profile.owner && buttonsJsx }
             </Card.Body>

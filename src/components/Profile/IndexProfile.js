@@ -62,7 +62,7 @@ class ProfileIndex extends Component {
       <div className="index">
         <h3 style={{ paddingBottom: '20px' }}>Profiles</h3>
         <Card className="profiles">
-          <Card.Title style={{ paddingLeft: '20px', paddingTop: '20px' }}>Your Current Profiles</Card.Title>
+          <Card.Title style={{ paddingLeft: '20px', paddingTop: '20px' }}>All Current Profiles</Card.Title>
           <Card.Body>{profilesJsx}</Card.Body>
         </Card>
       </div>

@@ -49,7 +49,7 @@ class ChangePassword extends Component {
     return (
       <div className="row">
         <div className="col-sm-10 col-md-6 mx-auto">
-          <div className="section-title">Change Password</div>
+          <div className="section-title" style={{ marginLeft: '20px' }}>Change Password</div>
           <div className="box">
             <Form onSubmit={this.onChangePassword}>
               <Form.Group controlId="oldPassword">

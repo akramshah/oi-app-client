@@ -105,8 +105,9 @@ class Home extends Component {
     const { signIn, signUp } = this.state
 
     const headingStyle = {
-      color: '#000',
-      padding: '50px 0'
+      padding: '50px 0',
+      display: 'flex',
+      color: '#E8E5E1'
     }
 
     const bodyStyle = {

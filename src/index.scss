@@ -1,5 +1,5 @@
 // Setting bootstrap variables prior to importing bootstrap
-$primary: #D9304F;
+$primary: #EE900B;
 $danger: #FF1DC0;
 
 // Importing bootstrap
@@ -8,29 +8,33 @@ $danger: #FF1DC0;
 // Style for the entire app
 body {
   background: #fff;
+  font-family: Futura;
+  color: #E8E5E1;
 }
 
 .box {
-  @extend .border, .rounded;
-
-  background: #fff;
+  @extend .rounded;
+  background-color: #557AA1;
   padding: 1.5rem;
+}
+
+.box.mb-3 {
+  background-color: #E8E5E1;
 }
 
 .section-title {
   @extend .mb-1;
 }
 
-.section-title-spacer {
-  @extend .mb-1;
-  height: 24px;
-}
-
 .container.mt-3{
   color: $primary;
   font-weight: 200;
 }
-div{
+
+.profiles {
+  background-color: #93A0B0;
+}
+
 
 
 // .col12.col-lg-3.col-md-4.col-sm-12 {
@@ -56,13 +60,12 @@ div{
 }
 
 .col-12 {
-        border: 15px solid $primary;
         flex: auto;
         /* max-width: 60%; */
         padding-right: 50px;
 }
 
-}
+
 a {
         color: white;
         /* color: #D9304F; */

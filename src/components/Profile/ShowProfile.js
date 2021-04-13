@@ -85,7 +85,7 @@ class ProfileShow extends Component {
     const buttonsJsx = (
       <div>
         <Button className='primary' variant="primary" onClick={this.handleDelete}>Delete Profile</Button>
-        <Button className='primary' variant="primary">
+        <Button className='primary' variant="primary" style={{ marginTop: '10px' }}>
           <Link to={'/profile/edit'}>Update Profile</Link>
         </Button>
       </div>
@@ -96,9 +96,9 @@ class ProfileShow extends Component {
         <div className="displayProfile">
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" className="img-size" src={profile.avatar} />
-            <Card.Body>
+            <Card.Body style={{ backgroundColor: '#93A0B0' }}>
               <Card.Title><h3>Nickname: {profile.nickname}</h3></Card.Title>
-              <Card.Text>
+              <Card.Text >
                 Your profile overview.
               </Card.Text>
               { user._id === profile.owner && buttonsJsx }

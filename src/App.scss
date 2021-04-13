@@ -1,6 +1,7 @@
-$primary: #D9304F;
+$primary: #EE900B;
 $secondary: #54c0b2;
 $danger: #FF1DC0;
+
 @import '~bootstrap/scss/bootstrap';
 .container.mt-3{
   color: $primary;
@@ -19,12 +20,10 @@ div{
 //   border: 15px solid $primary;
 // }
 .chat-sidenav.border.rounded {
-  background: linear-gradient(90deg, rgba(201,165,237,1) 14%, rgba(217,233,249,1) 53%, rgba(161,232,223,1) 86%);
-
+  background-color: #E8E5E1;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
-  color: #D9304F;
   font-weight: 200;
   box-sizing: content-box;
   max-height: 100px;
@@ -42,10 +41,11 @@ div{
 }
 
 .col-12 {
-        border: 15px solid $primary;
+        border: 1px solid $primary;
         flex: auto;
         /* max-width: 60%; */
         padding-right: 50px;
+        padding-top: 10px;
 }
 .displayProfile {
   display: flex;
@@ -85,3 +85,8 @@ background: linear-gradient(90deg, rgba(201,165,237,1) 14%, rgba(217,233,249,1) 
         background-color: $primary;
     }
 }
+
+.profilebuttons {
+  padding-top: 10px;
+}
+

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Logo from './logosm.jpg'
+import Logo from './logo.jpg'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 const authenticatedOptions = userEmail => (
@@ -31,7 +31,7 @@ const alwaysOptions = (
 )
 
 const Header = ({ user, profile }) => (
-  <Navbar bg="primary" variant="dark" expand="md">
+  <Navbar style={{ backgroundColor: '#EE900B', color: 'white' }} expand="md">
     <div className="container">
       <Navbar.Brand href="#">
         <img src={Logo}></img>

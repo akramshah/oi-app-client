@@ -17,13 +17,13 @@ const ProfileForm = ({ profile, handleSubmit, handleChange }) => (
     <Form.Group>
       <Form.Label>Avatar</Form.Label>
       <Form.Control
-        placeholder='Enter profile avatar, a link to your image'
+        placeholder='Enter valid image URL.'
         // This name should line up with the state we want to change
         name='avatar'
         value={profile.avatar}
         onChange={handleChange}
       />
-      <Button className='primary' variant="primary" type="submit">
+      <Button className='primary' variant="primary" type="submit" style={{ marginTop: '10px' }}>
         Submit
       </Button>
     </Form.Group>

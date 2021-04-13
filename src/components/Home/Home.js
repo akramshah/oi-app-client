@@ -116,7 +116,7 @@ class Home extends Component {
     }
 
     const boxStyle = {
-      backgroundImage: 'url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.imgur.com%2Fg2CBCy6.jpg)',
+      backgroundColor: 'white',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height: '450px'
@@ -126,12 +126,12 @@ class Home extends Component {
       <Fragment>
         <div className="col-12 col-lg-4 col-md-4 col-sm-12">
           <div className="box">
-            <p className="text-center">Placeholder</p>
+            <p className="text-center"></p>
           </div>
         </div>
         <div className="col-12 col-lg-8 col-md-8 col-sm-12">
           <div className="box">
-            <h3 className="text-center" style={headingStyle}>Come Chat With Oi App</h3>
+            <h3 className="text-center" style={headingStyle}>You are now logged in.</h3>
           </div>
         </div>
       </Fragment>
@@ -167,7 +167,7 @@ class Home extends Component {
           <div className="section-title-spacer"></div>
           <div className="box mb-3" style={boxStyle}></div>
           <div className="box mb-3">
-            <h3 className="text-center m-0" style={bodyStyle}>A super cool app you can chat with</h3>
+            <h3 className="text-center m-0" style={bodyStyle}>Welcome! Please log-in or sign-up to use chat.</h3>
           </div>
         </div>
       </Fragment>
